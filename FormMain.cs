@@ -146,6 +146,7 @@ namespace COMDebugApp
         private void Form1_Load(object sender, EventArgs e)
         {
             SxCKH();
+            this.toolStripStatusLabel1.Text = String.Format("Hi_Langzi");
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
